@@ -18,7 +18,7 @@ $(document).ready(function () {
 			},
 			
 		},
-		navText: ["<img src='../img/s_arrows_prev.png'>","<img src='../img/s_arrows_next.png'>"]
+		navText: ["<img src='./img/s_arrows_prev.png'>","<img src='./img/s_arrows_next.png'>"]
 
 	});
 
