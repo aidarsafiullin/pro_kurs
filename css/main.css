@@ -82,6 +82,7 @@ header {
 .top_phone .wrapper .tab_item a {
   font-size: 34px;
   color: #fff ;
+  text-decoration: none;
   font-family: "RobotoBold", sans-serif;
   font-weight: bold; }
 
