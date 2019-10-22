@@ -1,0 +1,119 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .trust .trust_wrap .trust_item .trust_icon i {
+        font-size: 76px;
+    }
+
+    .advantages_wrap{
+        text-align: center;
+    }
+    .adv_icon,
+    .adv_desc{
+        display: block;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .top_header {
+        text-align: center;
+    }
+
+    .advantages .adv_icon {
+        width: 85px;
+        margin-bottom: 30px;
+    }
+
+    .trust .trust_wrap .trust_item:last-child {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .advantages_wrap{
+        text-align: left;
+    }
+
+.s_map .tabs {
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  
+  .s_map .tabs .tab {
+    padding: 0 40px;
+  }
+  
+
+    .top_phone,
+    .top_line {
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .tabs_header_sales .tab {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+
+    .tabs_header_sales .button_wrap {
+        text-align: center;
+    }
+
+    .advantages .adv_icon {
+        width: 82px;
+    }
+
+    .advantages .adv_desc {
+        margin-bottom: 30px;
+    }
+
+    .trust h2{
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .trust_desc{
+        text-align: center;
+    }
+
+    .trust .trust_wrap .trust_item:last-child {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .tabs_header_sales .tab {
+        font-size: 13px;
+        padding: 15px 11px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
